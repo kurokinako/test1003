@@ -14,8 +14,14 @@ public class hoge extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
         if( Greenfoot.isKeyDown( "right" ) ){
             setRotation(0);
+=======
+        if( Greenfoot.isKeyDown( "up" ) )
+        {
+            setRotation(270);
+>>>>>>> c85a04d6e40e2faa00dac3dd6915303cf0bc1d33
             move(1);
         }
     }    
